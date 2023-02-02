@@ -17,3 +17,8 @@ reference are created in order to only back-track gradients from non-cloudy and 
 pixels.
 
 ![Example reference](example_reference.png)
+
+
+We can observe the training progress by visualizing the progressive improvement
+in the prediction of the 9th timestep's NDVI:
+![Validation samples during training](example_training.gif)
